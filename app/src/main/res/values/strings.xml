@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BallinBistroBuddies</string>
+    <string name="title_activity_login">Login</string>
+    <string name="login_button">Lets go!</string>
+    <string name="name_label">Name</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="logo_alt">BallinBistroBuddiesLogo</string>
+
+    <string name="menu_table_view">Tables</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_meal_plan">MealPlan</string>
+    <!-- Preference Titles -->
+    <string name="settings_header_general">General</string>
+
+    <!-- Messages Preferences -->
+    <string name="settings_name">Name</string>
+    <string name="theme_selector">Theme</string>
+</resources>

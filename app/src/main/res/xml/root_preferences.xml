@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/settings_header_general">
+
+        <EditTextPreference
+            app:key="displayName"
+            app:title="@string/settings_name"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+    <ListPreference
+        android:entries="@array/theme_mode_entries"
+        android:entryValues="@array/theme_mode_values"
+        android:key="theme_mode_selection"
+        android:defaultValue="system"
+        android:title="@string/theme_selector" />
+
+</PreferenceScreen>
